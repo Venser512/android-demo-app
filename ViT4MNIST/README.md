@@ -1,4 +1,4 @@
-### 18.08.2023 Changes for compatibility with Android Studio Koala 2024.1.1 and Pytorch 2.4.0
+### 18.08.2024 Changes for compatibility with Android Studio Koala 2024.1.1 and Pytorch 2.4.0
    /ViT4MNIST/build.gradle 
 classpath 'com.android.tools.build:gradle:7.4.2'
 
