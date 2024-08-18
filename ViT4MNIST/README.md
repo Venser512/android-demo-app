@@ -1,3 +1,18 @@
+### 18.08.2023 Changes for compatibility with Android Studio Koala 2024.1.1 and Pytorch 2.4.0
+   /ViT4MNIST/build.gradle 
+classpath 'com.android.tools.build:gradle:7.4.2'
+
+  /ViT4MNIST/app.build.gradle 
+implementation 'org.pytorch:pytorch_android_lite:2.1.0'
+implementation 'org.pytorch:pytorch_android_torchvision_lite:2.1.0'
+
+  /ViT4MNIST/gradle/wrapper/gradle-wrapper.properties
+distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip
+
+IF you have troubles with running App, try check JDK version (need 11 for successful run)
+(Android Studio > Settings > Bulid.Execution.Deployment > Bulid Tools > Gradle > Gradle JDK)
+
+-----------------------------------------------------------------------------
 # Vision Transformer with ImageNet and MNIST on Android
 
 ## Introduction
