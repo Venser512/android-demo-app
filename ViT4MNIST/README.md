@@ -12,6 +12,8 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-bin.zip
 IF you have troubles with running App, try check JDK version (need 11 for successful run)
 (Android Studio > Settings > Bulid.Execution.Deployment > Bulid Tools > Gradle > Gradle JDK)
 
+P.S. It works at Android 11. For other Android versions, may be, you need other versions of enviroment.
+
 -----------------------------------------------------------------------------
 # Vision Transformer with ImageNet and MNIST on Android
 
